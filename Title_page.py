@@ -1,11 +1,5 @@
-from reportlab.pdfgen import canvas as cv
-from reportlab.lib.pagesizes import letter
-#from reportlab.lib.styles import getSampleStyleSheet
 from UdeS_StyleSheet import UdeS_style_sheet
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.rl_config import defaultPageSize
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer , PageBreak
 from reportlab.lib.units import cm
 import json
 def draw_titlepage():
@@ -45,5 +39,6 @@ def draw_titlepage():
     flowables.append(Spacer(1, 2.5 * cm))
     para = Paragraph(j_text["location"]+j_text["date"], style=headderstyle)
     flowables.append(para)
+    flowables.append(PageBreak())
     return flowables
 
