@@ -1,0 +1,55 @@
+{
+  "Style":
+  [
+    {
+      "Name": "Title1",
+      "TypeFace": "Arial",
+      "Size": 20,
+      "Bold": true,
+      "Italic": false,
+      "Underlined": false,
+      "Interline": "simple",
+      "spacing" : [12,12]
+    },
+    {
+      "Name": "Title2",
+      "TypeFace": "Arial",
+      "Size": 16,
+      "Bold": true,
+      "Italic": false,
+      "Underlined": false,
+      "Interline": "simple",
+      "spacing" : [12,12]
+    },
+    {
+      "Name": "Title3",
+      "TypeFace": "Arial",
+      "Size": 14,
+      "Bold": true,
+      "Italic": false,
+      "Underlined": false,
+      "Interline": "simple",
+      "spacing" : [12,6]
+    },
+    {
+      "Name": "Corps",
+      "TypeFace": "Calibri (Body)",
+      "Size": 11,
+      "Bold": false,
+      "Italic": false,
+      "Underlined": false,
+      "Interline": "simple",
+      "spacing" : [12,6]
+    },
+    {
+      "Name": "Caption",
+      "TypeFace": "Calibri Bold",
+      "Size": 10,
+      "Bold": true,
+      "Italic": false,
+      "Underlined": false,
+      "Interline": "simple",
+      "spacing" : [12,6]
+    }
+  ]
+}

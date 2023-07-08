@@ -1,0 +1,30 @@
+{
+  "Headder": ["UNIVERSITÉ DE SHERBROOKE","Faculté de génie","Département de génie électrique et génie informatique"],
+  "Title": "Main Title",
+  "Sub_Titile": "Sub Title",
+  "Classnumber": "APP1",
+  "Teacher": ["Présenté à","firstname_lastname"],
+  "Team": {
+    "Team_number": ["Présenté par","Équipe numéro XXX"],
+    "Teammate":
+    [
+      {
+        "name": "firstname lastname",
+        "separator": " _ ",
+        "cip": "abcd1234"
+      },
+      {
+        "name": "firstname1 lastname1",
+        "separator": " _ ",
+        "cip": "efgh5678"
+      },
+      {
+        "name": "firstname2 lastname2",
+        "separator": " _ ",
+        "cip": "ijkl9102"
+      }
+    ]
+  },
+  "location": "Sherbrooke - ",
+  "date": "7 juillet 2023"
+}

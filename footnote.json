@@ -1,0 +1,10 @@
+{
+  "portrait": {
+    "up": 1.25,
+    "down": 1.25
+  },
+  "landscape": {
+    "up": 0,
+    "down": 0.5
+  }
+}
