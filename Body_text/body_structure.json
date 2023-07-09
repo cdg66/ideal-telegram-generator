@@ -1,0 +1,20 @@
+{
+  "Part 1 the body jason file": {
+    "text_0": "ABCDEF",
+    "file": "test.txt",
+    "text_1": "Each entry in order is an element of the paragraph. So keys are used as command. must be unique and start command name . like text_0, text_1, text_A are valid keyowrd but not 1_text"
+  },
+  "Part 2 paragraphs": {
+    "text_0": "each jason class is a paragarph.Each one contain user defined content.",
+    "text_1": "user is free to add text, file, and figues"
+  },
+  "title of body3": {
+    "subtitle of body 3": {
+      "subtitle of subtitle of body 3": {
+        "subtitle of subtitle2 of body 3": {
+
+        }
+      }
+    }
+  }
+}
