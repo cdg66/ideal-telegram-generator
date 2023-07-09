@@ -5,6 +5,7 @@
 #Equations
 #Citations
 #Import .txt and img
+#page break
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer , PageBreak
 from reportlab.lib.units import cm
 import json

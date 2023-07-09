@@ -19,7 +19,18 @@ cv = SimpleDocTemplate(
 styles = UdeS_style_sheet()
 # add firstpage
 firstpage = draw_titlepage(styles)
+#compute body
 body = draw_body(styles)
+#compute toc
+
+#compute tof
+
+#compute tot
+
+#compute anexes
+
+#mergre everything
 doc = firstpage + body
+#generate document
 cv.build(doc)
 
