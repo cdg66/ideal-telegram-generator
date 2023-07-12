@@ -1,10 +1,10 @@
 #TODO think of a command set user can use to add features
-#Figure
-#Callbacks/matplotlib
-#Tables
-#Equations
-#Citations
-#Import .txt and img
+#Figure : "figure":["filename", "figname", X(mm),Y(mm)] // no x and y will be default
+#Callbacks/matplotlib "callback": ["methodname", "jason_subcommand"] // jason_subcommand how to process returned data like figure or table etc
+#Tables: "table":"filename" // use panda and open file
+#Equations //TBD
+#Citations "Quote":"jason item reference"
+#Import .txt(from line to line or all file) and img
 #page break
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer , PageBreak
 from reportlab.lib.units import cm

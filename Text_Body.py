@@ -32,28 +32,32 @@ def process_jason(styles, jason,number):
 def process_paragraph(styles, jason, title,number):
     flowables = []
     para = Paragraph(str(number.titles)+". "+title, style=styles["Heading1"])
-    number.titles = number.titles + 1
+
     flowables.append(para)
     for keys,values in jason.items():
         if type(values) is dict:
             flowables = flowables + process_sub_paragraph(styles,values,keys,number)
             pass
         flowables = flowables + compute_command(keys,values, styles)
+    number.titles = number.titles + 1
     return flowables
 def process_sub_paragraph(styles, jason,subtitle,number):
     flowables = []
     para = Paragraph("\t"+str(number.titles)+"."+str(number.subtitles)+". "+subtitle, style=styles["Heading2"])
-    number.subtitles =number.subtitles + 1
+
     flowables.append(para)
     for keys, values in jason.items():
         if type(values) is dict:
             flowables = flowables + process_sub_sub_paragraph(styles,values,  keys,number)
             pass
         flowables = flowables + compute_command(keys, values, styles)
+    number.subsubtitle = 1
+    number.subtitles = number.subtitles + 1
     return flowables
 def process_sub_sub_paragraph(styles, jason, subsubtitle,number):
     flowables = []
     para = Paragraph("\t\t" +str(number.titles)+"."+str(number.subtitles)+"."+str(number.subsubtitle)+". "+subsubtitle, style=styles["Heading3"])
+    number.subsubtitle = number.subsubtitle + 1
     flowables.append(para)
     for keys, values in jason.items():
         if type(values) is dict:
