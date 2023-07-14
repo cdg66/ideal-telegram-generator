@@ -10,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/home/capaciteur/PycharmProjects/ideal-telegram-generator/venv'
+setenv VIRTUAL_ENV '/media/capaciteur/50495b01-77bb-461a-92b2-aa87a5811407/home/capaciteur/Documents/Github/ideal-telegram-generator/venv'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"

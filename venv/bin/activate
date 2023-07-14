@@ -44,7 +44,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/capaciteur/PycharmProjects/ideal-telegram-generator/venv'
+VIRTUAL_ENV='/media/capaciteur/50495b01-77bb-461a-92b2-aa87a5811407/home/capaciteur/Documents/Github/ideal-telegram-generator/venv'
 if ([ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ]) && $(command -v cygpath &> /dev/null) ; then
     VIRTUAL_ENV=$(cygpath -u "$VIRTUAL_ENV")
 fi

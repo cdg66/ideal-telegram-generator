@@ -1,4 +1,6 @@
-#!/home/capaciteur/PycharmProjects/ideal-telegram-generator/venv/bin/python
+#!/bin/sh
+'''exec' /media/capaciteur/50495b01-77bb-461a-92b2-aa87a5811407/home/capaciteur/Documents/Github/ideal-telegram-generator/venv/bin/python "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
