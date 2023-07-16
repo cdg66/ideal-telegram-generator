@@ -13,7 +13,7 @@
       "subtitle of subtitle of body 3": {
         "subtitle of subtitle of subtitle of body 3": {
           "text_0": "Just focus on the content and the container will be ajusted automaticly.",
-          "text_1": ""
+          "table_0": ["tab.xlsx", "This is an example of a tab imported form excel"]
 
         }
       }
@@ -21,8 +21,6 @@
     "subtitle_of body3 type 2": {
       "subtitle of subtitle of body 3": {
         "subtitle of subtitle of subtitle of body 3": {
-          "text_0": "Just focus on the content and the container will be ajusted automaticly.",
-          "text_1": "",
           "figure":  ["frame.png","more documentation can be found here",244,244],
           "figure_2": ["https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397203158/223fbc93a48bf878bfe39608c6ab9c33.png","built using reportlabs python library", 70,70]
         }

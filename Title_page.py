@@ -3,7 +3,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer , PageBreak
 from reportlab.lib.units import cm
 import json
 def draw_titlepage(styles):
-    with open('titlepage.json') as titlepage:
+    with open('Body_text/titlepage.json') as titlepage:
         j_text = titlepage.read()
     j_text = json.loads(j_text)
 
