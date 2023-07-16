@@ -104,10 +104,14 @@ def printtabs(values, styles):
     filetype = values[0].split(".")
     dataframe = openarray[filetype[-1]](values[0])
     #append tab
-    # = dataframe.to_numpy()
-    t = Table(dataframe.values.tolist())
-    #t.setStyle(TableStyle([('BACKGROUND', (1, 1), (-2, -2), colors.green),
-    #                       ('TEXTCOLOR', (0, 0), (1, -1), colors.red)]))
+    table = list(dataframe.columns.values)
+    #table.append()
+    t = Table([table]+dataframe.values.tolist())
+    t.setStyle(TableStyle([('LINEABOVE',(0,0),(-1,0),1,colors.black),
+                           ('LINEBELOW', (0, 0), (-1, 0), 1, colors.black),
+                           ('LINEABOVE', (0, 1), (-1, 1), 1, colors.black),
+                           ('LINEBELOW', (0, -1), (-1, -1), 1, colors.black),
+                           ]))
     flowables.append(t)
     return flowables
 
